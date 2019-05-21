@@ -1,0 +1,21 @@
+TensorFlow里面的operation
+1.基本操作
+split, rank, reshape, random_shuffle, slice, concat,...
+
+2.逐元素的数学操作
+add, subtract, multiply, div, greater, less, equal, exp, log, ...
+
+3.矩阵操作
+eye, matmul, matrix_inverse, matrix_determinant, ...
+
+4.状态形操作
+Variable, assign, assign_add, ...
+
+5.神经网络操作
+sigmoid, relu, softmax, max_pool, dropout, conv2d, dynamic_rnn, ...
+
+6.保存、还原操作
+train.saver.save, train.saver.restore
+
+7.模型训练操作
+train.GradientDescentOptimizer, train.AdamOptimizer, ...
